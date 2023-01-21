@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DB_SALESConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DB_SALESConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SALES.My.MySettings.GlobalReference.Default.DB_SALESConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SELLBILLTableAdapter" GeneratorDataComponentClassName="SELLBILLTableAdapter" Name="SELLBILL" UserDataComponentName="SELLBILLTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DB_SALESConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SALEBILL.SALECODE, SALEBILL.SALEDATE, SALEBILL.CUSTOMERNAME, SALEBILL.NOTES, SALEBILL.TOTAL, SALEBILL.SALEUSER, SALEBILL.SALETYPE, SALE_DET.ITEMCODE, SALE_DET.ITEMNAME, SALE_DET.UNIT, 
+                         SALE_DET.PRICE, SALE_DET.QTY, SALE_DET.TOTAL AS Expr1, SALE_DET.DISCOUND
+FROM            SALEBILL CROSS JOIN
+                         SALE_DET</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SALECODE" DataSetColumn="SALECODE" />
+              <Mapping SourceColumn="SALEDATE" DataSetColumn="SALEDATE" />
+              <Mapping SourceColumn="CUSTOMERNAME" DataSetColumn="CUSTOMERNAME" />
+              <Mapping SourceColumn="NOTES" DataSetColumn="NOTES" />
+              <Mapping SourceColumn="TOTAL" DataSetColumn="TOTAL" />
+              <Mapping SourceColumn="SALEUSER" DataSetColumn="SALEUSER" />
+              <Mapping SourceColumn="SALETYPE" DataSetColumn="SALETYPE" />
+              <Mapping SourceColumn="ITEMCODE" DataSetColumn="ITEMCODE" />
+              <Mapping SourceColumn="ITEMNAME" DataSetColumn="ITEMNAME" />
+              <Mapping SourceColumn="UNIT" DataSetColumn="UNIT" />
+              <Mapping SourceColumn="PRICE" DataSetColumn="PRICE" />
+              <Mapping SourceColumn="QTY" DataSetColumn="QTY" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="DISCOUND" DataSetColumn="DISCOUND" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SELLBILL" msprop:Generator_TableClassName="SELLBILLDataTable" msprop:Generator_TableVarName="tableSELLBILL" msprop:Generator_TablePropName="SELLBILL" msprop:Generator_RowDeletingName="SELLBILLRowDeleting" msprop:Generator_RowChangingName="SELLBILLRowChanging" msprop:Generator_RowEvHandlerName="SELLBILLRowChangeEventHandler" msprop:Generator_RowDeletedName="SELLBILLRowDeleted" msprop:Generator_UserTableName="SELLBILL" msprop:Generator_RowChangedName="SELLBILLRowChanged" msprop:Generator_RowEvArgName="SELLBILLRowChangeEvent" msprop:Generator_RowClassName="SELLBILLRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SALECODE" msprop:Generator_ColumnVarNameInTable="columnSALECODE" msprop:Generator_ColumnPropNameInRow="SALECODE" msprop:Generator_ColumnPropNameInTable="SALECODEColumn" msprop:Generator_UserColumnName="SALECODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SALEDATE" msprop:Generator_ColumnVarNameInTable="columnSALEDATE" msprop:Generator_ColumnPropNameInRow="SALEDATE" msprop:Generator_ColumnPropNameInTable="SALEDATEColumn" msprop:Generator_UserColumnName="SALEDATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CUSTOMERNAME" msprop:Generator_ColumnVarNameInTable="columnCUSTOMERNAME" msprop:Generator_ColumnPropNameInRow="CUSTOMERNAME" msprop:Generator_ColumnPropNameInTable="CUSTOMERNAMEColumn" msprop:Generator_UserColumnName="CUSTOMERNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOTES" msprop:Generator_ColumnVarNameInTable="columnNOTES" msprop:Generator_ColumnPropNameInRow="NOTES" msprop:Generator_ColumnPropNameInTable="NOTESColumn" msprop:Generator_UserColumnName="NOTES" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SALEUSER" msprop:Generator_ColumnVarNameInTable="columnSALEUSER" msprop:Generator_ColumnPropNameInRow="SALEUSER" msprop:Generator_ColumnPropNameInTable="SALEUSERColumn" msprop:Generator_UserColumnName="SALEUSER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SALETYPE" msprop:Generator_ColumnVarNameInTable="columnSALETYPE" msprop:Generator_ColumnPropNameInRow="SALETYPE" msprop:Generator_ColumnPropNameInTable="SALETYPEColumn" msprop:Generator_UserColumnName="SALETYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ITEMCODE" msprop:Generator_ColumnVarNameInTable="columnITEMCODE" msprop:Generator_ColumnPropNameInRow="ITEMCODE" msprop:Generator_ColumnPropNameInTable="ITEMCODEColumn" msprop:Generator_UserColumnName="ITEMCODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ITEMNAME" msprop:Generator_ColumnVarNameInTable="columnITEMNAME" msprop:Generator_ColumnPropNameInRow="ITEMNAME" msprop:Generator_ColumnPropNameInTable="ITEMNAMEColumn" msprop:Generator_UserColumnName="ITEMNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UNIT" msprop:Generator_ColumnVarNameInTable="columnUNIT" msprop:Generator_ColumnPropNameInRow="UNIT" msprop:Generator_ColumnPropNameInTable="UNITColumn" msprop:Generator_UserColumnName="UNIT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRICE" msprop:Generator_ColumnVarNameInTable="columnPRICE" msprop:Generator_ColumnPropNameInRow="PRICE" msprop:Generator_ColumnPropNameInTable="PRICEColumn" msprop:Generator_UserColumnName="PRICE" type="xs:int" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_UserColumnName="QTY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DISCOUND" msprop:Generator_ColumnVarNameInTable="columnDISCOUND" msprop:Generator_ColumnPropNameInRow="DISCOUND" msprop:Generator_ColumnPropNameInTable="DISCOUNDColumn" msprop:Generator_UserColumnName="DISCOUND" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,90 @@
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\bin\Debug\SALES.exe.config
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.vbprojResolveAssemblyReference.cache
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.Main_Page.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.Resources.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.Search.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.SUPLIER.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.vbproj.GenerateResource.Cache
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\bin\Debug\SALES.exe
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\bin\Debug\SALES.pdb
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\bin\Debug\SALES.xml
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.CUSTEMRERS.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.Search_CUS.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.ITEMS.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.SEARCH_ITEMS.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.unit_add.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.SEARCH_ITEM_PUYPILL.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.exe
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.xml
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.pdb
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.SEARCH_PUYPILL.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.SELLEPILL.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.SELL.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.SEARCH_ITEM.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.SEARCH_SALE.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.SEARCH_CUST.resources
+C:\Users\hp\Downloads\Telegram Desktop\SALES\SALES\obj\Debug\SALES.RECOVER.resources
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\SALES.exe.config
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.exe
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.xml
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.pdb
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\SALES.exe
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\SALES.pdb
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\SALES.xml
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.vbprojResolveAssemblyReference.cache
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.CUSTEMRERS.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.Search_CUS.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.ITEMS.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SEARCH_ITEMS.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.unit_add.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.Main_Page.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.Resources.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SELLEPILL.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SEARCH_ITEM_PUYPILL.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SEARCH_PUYPILL.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.RECOVER.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SEARCH_RE.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.RuPUT_BILL.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SEARCH_Ru.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SEARCH_CUST.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SEARCH_ITEM.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SEARCH_SALE.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SELL.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.Search.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SUPLIER.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.vbproj.GenerateResource.Cache
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SEARCH_IMP.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.DEBIT.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SHOW_DE_PUYBILL.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SARF.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SARF_IMP.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.RESEARCH.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SARF_old.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.QABD.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.QABD_CUS.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.QABD_old.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SEARCH_CUSMU.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.SHOW_DE_SALEPILL.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.DAMG_ITEM.resources
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\CrystalDecisions.VSDesigner.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\CrystalDecisions.Web.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\FlashControlV71.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\EnvDTE.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\VSLangProj.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\VsWebSite.Interop.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\EnvDTE80.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\stdole.dll
+C:\Users\hp\Downloads\SALES\SALES\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.vbproj.SALES.exe.config
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.acount.resources
+C:\Users\hp\Downloads\SALES\SALES\obj\Debug\SALES.search_c.resources

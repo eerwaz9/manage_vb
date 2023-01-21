@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73AFCF85-4039-409C-B299-FB15EEE488D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SALES.My.MyApplication</StartupObject>
+    <RootNamespace>SALES</RootNamespace>
+    <AssemblyName>SALES</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SALES.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SALES.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CRVsPackageLib, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CRVsPackageLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.CrystalReports.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.CrystalReports.TemplateEngine.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.Data.AdoDotNetInterop.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.Viewing.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.Enterprise.Viewing.ReportSource.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.ClientDoc.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommLayer, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.CommLayer.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonControls, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.CommonControls.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonObjectModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.CommonObjectModel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.Controllers.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CubeDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.CubeDefModel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.DataDefModel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataSetConversion, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.DataSetConversion.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ObjectFactory, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.ObjectFactory.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Prompting, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.Prompting.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.ReportDefModel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.XmlSerialize, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.XmlSerialize.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.Shared.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.VSDesigner, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.VSDesigner.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.Windows.Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\FlashControlV71.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SAPBusinessObjects.WPF.Viewer, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\SAPBusinessObjects.WPF.Viewer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SAPBusinessObjects.WPF.ViewerShared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\SAPBusinessObjects.WPF.ViewerShared.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\CrystalReports.13.0.5.891\lib\net40\ShockwaveFlashObjects.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="acount\acount.Designer.vb">
+      <DependentUpon>acount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="acount\acount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="acount\acount_IMP.Designer.vb">
+      <DependentUpon>acount_IMP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="acount\acount_IMP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="acount\search_c.Designer.vb">
+      <DependentUpon>search_c.vb</DependentUpon>
+    </Compile>
+    <Compile Include="acount\search_c.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONNETION.vb" />
+    <Compile Include="CUSTOMERS\CUSTEMRERS.Designer.vb">
+      <DependentUpon>CUSTEMRERS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CUSTOMERS\CUSTEMRERS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CUSTOMERS\Search_CUS.Designer.vb">
+      <DependentUpon>Search_CUS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CUSTOMERS\Search_CUS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DAMG_ITEM\DAMG_ITEM.Designer.vb">
+      <DependentUpon>DAMG_ITEM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DAMG_ITEM\DAMG_ITEM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items\ITEMS.Designer.vb">
+      <DependentUpon>ITEMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Items\ITEMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items\SEARCH_ITEMS.Designer.vb">
+      <DependentUpon>SEARCH_ITEMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Items\SEARCH_ITEMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items\unit_add.Designer.vb">
+      <DependentUpon>unit_add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Items\unit_add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Page.Designer.vb">
+      <DependentUpon>Main_Page.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ClassConvertNo.vb" />
+    <Compile Include="PUY_PILL\PUY_PILL.Designer.vb">
+      <DependentUpon>PUY_PILL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PUY_PILL\PUY_PILL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PUY_PILL\SEARCH_IMP.Designer.vb">
+      <DependentUpon>SEARCH_IMP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PUY_PILL\SEARCH_IMP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PUY_PILL\SEARCH_ITEM_PUYPILL.Designer.vb">
+      <DependentUpon>SEARCH_ITEM_PUYPILL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PUY_PILL\SEARCH_ITEM_PUYPILL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PUY_PILL\SEARCH_PUYPILL.Designer.vb">
+      <DependentUpon>SEARCH_PUYPILL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PUY_PILL\SEARCH_PUYPILL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QABD\QABD.Designer.vb">
+      <DependentUpon>QABD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QABD\QABD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QABD\QABD_CUS.Designer.vb">
+      <DependentUpon>QABD_CUS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QABD\QABD_CUS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QABD\QABD_old.Designer.vb">
+      <DependentUpon>QABD_old.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QABD\QABD_old.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RECOVER\RECOVER.Designer.vb">
+      <DependentUpon>RECOVER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RECOVER\RECOVER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RECOVER\SEARCH_CUSMU.Designer.vb">
+      <DependentUpon>SEARCH_CUSMU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RECOVER\SEARCH_CUSMU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REPORT\DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RePUY_PILL\RESEARCH.Designer.vb">
+      <DependentUpon>RESEARCH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RePUY_PILL\RESEARCH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RECOVER\SEARCH_RE.Designer.vb">
+      <DependentUpon>SEARCH_RE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RECOVER\SEARCH_RE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RePUY_PILL\RuPUT_BILL.Designer.vb">
+      <DependentUpon>RuPUT_BILL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RePUY_PILL\RuPUT_BILL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RePUY_PILL\SEARCH_Ru.Designer.vb">
+      <DependentUpon>SEARCH_Ru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RePUY_PILL\SEARCH_Ru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SARF\SARF.Designer.vb">
+      <DependentUpon>SARF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SARF\SARF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SARF\SARF_IMP.Designer.vb">
+      <DependentUpon>SARF_IMP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SARF\SARF_IMP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SARF\SARF_old.Designer.vb">
+      <DependentUpon>SARF_old.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SARF\SARF_old.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SELLEBILL\SEARCH_CUST.Designer.vb">
+      <DependentUpon>SEARCH_CUST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SELLEBILL\SEARCH_CUST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SELLEBILL\SEARCH_ITEM.Designer.vb">
+      <DependentUpon>SEARCH_ITEM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SELLEBILL\SEARCH_ITEM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SELLEBILL\SEARCH_SALE.Designer.vb">
+      <DependentUpon>SEARCH_SALE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SELLEBILL\SEARCH_SALE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SELLEBILL\SELL.Designer.vb">
+      <DependentUpon>SELL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SELLEBILL\SELL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SHOW_DE_PUYBILL\SHOW_DE_PUYBILL.Designer.vb">
+      <DependentUpon>SHOW_DE_PUYBILL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SHOW_DE_PUYBILL\SHOW_DE_PUYBILL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SHOW_DE_SALEPILL\SHOW_DE_SALEPILL.Designer.vb">
+      <DependentUpon>SHOW_DE_SALEPILL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SHOW_DE_SALEPILL\SHOW_DE_SALEPILL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supler\Search.Designer.vb">
+      <DependentUpon>Search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Supler\Search.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supler\SUPLIER.Designer.vb">
+      <DependentUpon>SUPLIER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Supler\SUPLIER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="acount\acount.resx">
+      <DependentUpon>acount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="acount\acount_IMP.resx">
+      <DependentUpon>acount_IMP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="acount\search_c.resx">
+      <DependentUpon>search_c.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUSTOMERS\CUSTEMRERS.resx">
+      <DependentUpon>CUSTEMRERS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUSTOMERS\Search_CUS.resx">
+      <DependentUpon>Search_CUS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DAMG_ITEM\DAMG_ITEM.resx">
+      <DependentUpon>DAMG_ITEM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items\ITEMS.resx">
+      <DependentUpon>ITEMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items\SEARCH_ITEMS.resx">
+      <DependentUpon>SEARCH_ITEMS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items\unit_add.resx">
+      <DependentUpon>unit_add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Page.resx">
+      <DependentUpon>Main_Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PUY_PILL\PUY_PILL.resx">
+      <DependentUpon>PUY_PILL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PUY_PILL\SEARCH_IMP.resx">
+      <DependentUpon>SEARCH_IMP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PUY_PILL\SEARCH_ITEM_PUYPILL.resx">
+      <DependentUpon>SEARCH_ITEM_PUYPILL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PUY_PILL\SEARCH_PUYPILL.resx">
+      <DependentUpon>SEARCH_PUYPILL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QABD\QABD.resx">
+      <DependentUpon>QABD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QABD\QABD_CUS.resx">
+      <DependentUpon>QABD_CUS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QABD\QABD_old.resx">
+      <DependentUpon>QABD_old.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RECOVER\RECOVER.resx">
+      <DependentUpon>RECOVER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RECOVER\SEARCH_CUSMU.resx">
+      <DependentUpon>SEARCH_CUSMU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RePUY_PILL\RESEARCH.resx">
+      <DependentUpon>RESEARCH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RECOVER\SEARCH_RE.resx">
+      <DependentUpon>SEARCH_RE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RePUY_PILL\RuPUT_BILL.resx">
+      <DependentUpon>RuPUT_BILL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RePUY_PILL\SEARCH_Ru.resx">
+      <DependentUpon>SEARCH_Ru.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SARF\SARF.resx">
+      <DependentUpon>SARF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SARF\SARF_IMP.resx">
+      <DependentUpon>SARF_IMP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SARF\SARF_old.resx">
+      <DependentUpon>SARF_old.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SELLEBILL\SEARCH_CUST.resx">
+      <DependentUpon>SEARCH_CUST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SELLEBILL\SEARCH_ITEM.resx">
+      <DependentUpon>SEARCH_ITEM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SELLEBILL\SEARCH_SALE.resx">
+      <DependentUpon>SEARCH_SALE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SELLEBILL\SELL.resx">
+      <DependentUpon>SELL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SHOW_DE_PUYBILL\SHOW_DE_PUYBILL.resx">
+      <DependentUpon>SHOW_DE_PUYBILL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SHOW_DE_SALEPILL\SHOW_DE_SALEPILL.resx">
+      <DependentUpon>SHOW_DE_SALEPILL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supler\Search.resx">
+      <DependentUpon>Search.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supler\SUPLIER.resx">
+      <DependentUpon>SUPLIER.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="REPORT\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="REPORT\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="REPORT\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
